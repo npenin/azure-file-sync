@@ -4,7 +4,9 @@
 
 ```
 git clone https://github.com/npenin/azure-file-sync.git
+cd azure-file-sync
 yarn
+tsc -p .
 node . <storageAccount> <storageAccessKey> <storageFileShare> <localfolder> [dryrun]
 ```
 
